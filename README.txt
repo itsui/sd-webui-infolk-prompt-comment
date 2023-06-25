@@ -18,3 +18,4 @@ To re-enable a line or block of text, simply remove the '#' character.
 If you encounter any issues with the extension or have suggestions for improvements, please open an issue on this repository. Contributions are also welcome.
 
 
+To install go to the Automatic1111 UI >  extensions tab > install from url and add the github url
