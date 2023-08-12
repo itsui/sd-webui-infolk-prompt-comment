@@ -13,7 +13,7 @@
     // Your code here...
     var promptOrig = window.prompt;
     window.prompt = function (text, defaultText) {
-        if (text.startsWith("#")) {
+        if (text.trimStart().startsWith("#")) {
             return null;
         }
         return promptOrig(text, defaultText);
